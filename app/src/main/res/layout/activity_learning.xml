@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/inside"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearningActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/circle"
+       />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/triangle"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/rectangle"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/square"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="دائرة"
+        android:textColor="#3F51B5"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="مثلث"
+        android:textColor="#3F51B5"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="مستطيل"
+        android:textColor="#3F51B5"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="مربع"
+        android:textColor="#3F51B5"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+
+        <Button
+            android:id="@+id/nextbttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="التالي"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            />
+
+    <Button
+        android:id="@+id/backbttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="رجوع"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
